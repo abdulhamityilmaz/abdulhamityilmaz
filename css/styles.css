@@ -1,0 +1,51 @@
+/* === Allgemeine Regeln ===*/
+body { 
+    /* diese 3 Regeln als Voraussetzung den Footer immer unten zu halten */
+    height: 100vh; /* Footer immer unten */ 
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background: #84a4bd;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+	color: #000;
+}
+footer {
+    background: #333;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+	margin-top: auto; /* Footer immer unten */
+	color: #fff;
+}
+
+/* === Typografie ===*/
+.bold {
+    font-weight: bold;
+}
+
+/* === Formulare === */
+input[type=checkbox], input[type=radio] {
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+}
+
+/* === Übung textsuche.php ===*/
+form > p {
+    display: flex;
+    align-items: center;
+}
+.radio > label {
+    width: auto;
+}
+.suchergebnis {
+    color: blue;
+}
+.anzahl {
+    color: red;
+    font-weight: bold;
+}
+mark {
+    background-color: orange;
+    padding: 0 2px;
+}
